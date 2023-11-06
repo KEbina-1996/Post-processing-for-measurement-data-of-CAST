@@ -34,3 +34,7 @@ This file specifies the data file to be processed and also contains additional i
     <br>The port (cannula) position on the cadaver body. The 3D positions of the three ports, including the camera port, must be recorded.
   - cadaver1_x,y,z to cadaver3_x,y,z:
     <br>The 3D position of the three anatomical feature of the cadaver body (shoulder, anterior superior iliac spine, and knee). These position were recorded by attaching markers to the cadaver body.
+
+## Requirements
+This program uses Python3, and following library is used:<br>
+pandas, numpy, scipy, quaternion, and filterpy.
