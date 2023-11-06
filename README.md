@@ -17,7 +17,7 @@ Therefore, three outlier removal methods and interpolation and smoothing methods
 3. Then the processed file will be stored in calc/.
 
 ## File format
-- input data (csv file):<br>
+- input data (csv):<br>
 This file must contain the time stamp, tip position (X, Y, Z), and orientation in quaternion form (W, X, Y, Z) of the surgical instruments.
 The file header consists of four lines. See the sample file for detailed formatting (mocap/).
 The sample file contains motion data for six surgical instruments in the surgical training.
@@ -28,6 +28,9 @@ This file specifies the data file to be processed and also contains additional i
     <br>Designates the name of the file to be processed. Note that the target file must be saved under ″mocap″ directory.
   - processFg:
     <br>This is a flag to process or not. Setting this value to 1 will process the target file; setting it to 0 will ignore it.
-  - cadaverVec: Specifies the orientation of the cadaver body. Since the head orientation changes between right and left nephrectomy, this option is used to adjust the orientation.
-  - trocar1_x,y,z to trocar3_x,y,z: The port (cannula) position on the cadaver body. The 3D positions of the three ports, including the camera port, must be recorded.
-  - cadaver1_x,y,z to cadaver3_x,y,z: The 3D position of the three anatomical feature of the cadaver body (shoulder, anterior superior iliac spine, and knee). These position were recorded by attaching markers to the cadaver body.
+  - cadaverVec:
+    <br>Specifies the orientation of the cadaver body. Since the head orientation changes between right and left nephrectomy, this option is used to adjust the orientation.
+  - trocar1_x,y,z to trocar3_x,y,z:
+    <br>The port (cannula) position on the cadaver body. The 3D positions of the three ports, including the camera port, must be recorded.
+  - cadaver1_x,y,z to cadaver3_x,y,z:
+    <br>The 3D position of the three anatomical feature of the cadaver body (shoulder, anterior superior iliac spine, and knee). These position were recorded by attaching markers to the cadaver body.
