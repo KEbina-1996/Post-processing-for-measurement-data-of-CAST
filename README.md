@@ -63,8 +63,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Reference
-~~
-[1] Koki Ebina, Takashige Abe, Lingbo Yan, Kiyohiko Hotta, Toshiaki Shichinohe,
+
+~~[1] Koki Ebina, Takashige Abe, Lingbo Yan, Kiyohiko Hotta, Toshiaki Shichinohe,
 Madoka Higuchi, Naoya Iwahara, Yukino Hosaka, Shigeru Harada, Hiroshi Kikuchi,
 Haruka Miyata, Ryuji Matsumoto, Takahiro Osawa, Yo Kurashima, Masahiko Watanabe,
 Masafumi Kon, Sachiyo Murai, Shunsuke Komizunai, Teppei Tsujita,
