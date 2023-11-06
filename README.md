@@ -24,8 +24,8 @@ The sample file contains motion data for six surgical instruments in the surgica
 Note that due to the file size limitations of the github, up to 1000 seconds of data is stored.
 - targetFile.csv:
 This file specifies the data file to be processed and also contains additional information about the file.
--- filename: Designates the name of the file to be processed. Note that the target file must be saved under ″mocap″ directory.
--- processFg: This is a flag to process or not. Setting this value to 1 will process the target file; setting it to 0 will ignore it.
--- cadaverVec: Specifies the orientation of the cadaver body. Since the head orientation changes between right and left nephrectomy, this option is used to adjust the orientation.
--- trocar1_x,y,z to trocar3_x,y,z: The port (cannula) position on the cadaver body. The 3D positions of the three ports, including the camera port, must be recorded.
--- cadaver1_x,y,z to cadaver3_x,y,z: The 3D position of the three anatomical feature of the cadaver body (shoulder, anterior superior iliac spine, and knee). These position were recorded by attaching markers to the cadaver body.
+  - filename: Designates the name of the file to be processed. Note that the target file must be saved under ″mocap″ directory.
+  - processFg: This is a flag to process or not. Setting this value to 1 will process the target file; setting it to 0 will ignore it.
+  - cadaverVec: Specifies the orientation of the cadaver body. Since the head orientation changes between right and left nephrectomy, this option is used to adjust the orientation.
+  - trocar1_x,y,z to trocar3_x,y,z: The port (cannula) position on the cadaver body. The 3D positions of the three ports, including the camera port, must be recorded.
+  - cadaver1_x,y,z to cadaver3_x,y,z: The 3D position of the three anatomical feature of the cadaver body (shoulder, anterior superior iliac spine, and knee). These position were recorded by attaching markers to the cadaver body.
